@@ -11,4 +11,7 @@ class ContractEmployee extends Employee {
         return $this->contractAmount;
     }
 }
+interface Bonus {
+    public function calculateBonus();
+}
 ?>
